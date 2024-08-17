@@ -1,0 +1,30 @@
+# step 1 
+daf add ( a, b ): 
+    return a + b 
+
+def subtract ( a , b ) :
+    return a - b 
+
+def multiply ( a , b) : 
+   return a * b 
+
+# step 2
+
+def divide ( a , b ) : 
+    if b == 0:
+       return "invaild value"
+    return a / b 
+
+# step 3 
+ 
+def square (a) :
+    return a * a
+
+def power ( a , b ) : 
+    return a ** b 
+
+def sqrt (a) : 
+    if  a < 0 :
+         return "invalid value"
+    return a ** 0.5 
+
